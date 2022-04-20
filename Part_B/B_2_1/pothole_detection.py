@@ -36,7 +36,6 @@ def thresh_callback(val):
             cv.drawContours(drawing, contours, i, color)
             cv.ellipse(drawing, minEllipse[i], color, 2)
 
-    cv.imshow("Contours", canny_output)
     return canny_output
 
 
@@ -91,9 +90,9 @@ while cap.isOpened():
         cv.putText(blobs, text, (20, 550), cv.FONT_HERSHEY_SIMPLEX, 1, (0, 100, 255), 2)
 
         # Show blobs
-        cv.imshow("Filtering Circular Blobs Only", blobs)
+        cv.imshow("Pothole Detection", blobs)
 
-        if cv.waitKey(25) == ord("q"):
+        if cv.waitKey(25) == ord("x"):
             break
     else:
         break
