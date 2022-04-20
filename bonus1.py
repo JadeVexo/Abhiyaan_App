@@ -2,7 +2,7 @@
 #                     # 
 # Name: Jaayanth SK   #
 # Roll No.: ED21B029  #
-# Question: Bounus 1  #
+# Question: Bonus 1   #
 #                     #
 #######################
 
