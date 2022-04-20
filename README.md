@@ -9,6 +9,7 @@ Submission for Team Abhiyaan
   <li>Python, C++, Java, JS, Octave/Matlab, C</li>
   <li>Ibot Triphiban Automation Module</li>
   <li>Analytics, CVI Techsoc</li>
+  <li> Shastraa 2022 Drone Application Hackathon First Place </li> 
 </ul>
 
 <strong>Current PORs:</strong><br>
