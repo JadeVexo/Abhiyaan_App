@@ -1,0 +1,1 @@
+Let the turtle sim run for about 15-20 seconds to see eliptical orbits...also I sent a cute turtle gif for you just cuz I could.
