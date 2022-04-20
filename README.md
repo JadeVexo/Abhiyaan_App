@@ -6,7 +6,7 @@ Submission for Team Abhiyaan
   
 <strong>Previous Experience:</strong>
  <ul>
-  <li>Python,C++,Java,JS,Octave,C<li>
+  <li>Python,C++,Java,JS,Octave,C</li>
   <li>Ibot Triphiban Sensor Fusion</li>
   <li>Analytics,CVI Techsoc</li>
 </ul>
