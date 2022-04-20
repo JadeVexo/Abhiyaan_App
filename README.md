@@ -13,7 +13,7 @@ Submission for Team Abhiyaan
 
 <strong>Current PORs:</strong><br>
  <ul>
-  <li>Ibot Project Member for the Triphibian Bot</li>
+  <li>Ibot Project Member for the Triphibian Bot Automation Module</li>
   <li>ED21 CR if that counts(<s>it should</s>) </li>
 </ul>
 
