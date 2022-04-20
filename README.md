@@ -6,9 +6,9 @@ Submission for Team Abhiyaan
   
 <strong>Previous Experience:</strong>
  <ul>
-  <li>Python,C++,Java,JS,Octave,C</li>
-  <li>Ibot Triphiban Sensor Fusion</li>
-  <li>Analytics,CVI Techsoc</li>
+  <li>Python, C++, Java, JS, Octave/Matlab, C</li>
+  <li>Ibot Triphiban Automation Module</li>
+  <li>Analytics, CVI Techsoc</li>
 </ul>
 
 <strong>Current PORs:</strong><br>
@@ -18,7 +18,7 @@ Submission for Team Abhiyaan
 </ul>
 
 <strong>Why I want to work in the team:</strong>
-I have a passion for software dev/Robotics/Computer Vision/AI etc.<br> So I joined an Autonomous Drone project in CFI ibot. While I was there I was watching the Abhiyaan team work on their project for openhouse. This was very much in tuned to what I wanted to do in the future. Naturally this 
+I have a passion for software dev/Robotics/Computer Vision/AI etc. So I joined an Autonomous Drone project in CFI ibot. While I was there I was watching the Abhiyaan team work on their project for openhouse. This was very much in tuned to what I wanted to do in the future. I was very facinated with the work and the dedication that the team was showing to get a working product. This was a major motivation for me to apply to the team. Naturally, I was waiting around for the application to roll out and here I am.
 <br>
 
 <strong>Relevant Courses:</strong><br>
