@@ -51,7 +51,7 @@ while cap.isOpened():
         src_gray = cv.cvtColor(src, cv.COLOR_BGR2GRAY)
         src_gray = cv.blur(src_gray, (3, 3))
         source_window = "Source"
-        cv.namedWindow(source_window)
+        #cv.namedWindow(source_window)
         max_thresh = 255
         thresh = 230
         
