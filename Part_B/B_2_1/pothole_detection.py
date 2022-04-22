@@ -87,7 +87,7 @@ while cap.isOpened():
         )
 
         number_of_blobs = len(keypoints)
-        text = "Number of Circular Blobs: " + str(len(keypoints))
+        text = "Potholes: " + str(len(keypoints))
         cv.putText(blobs, text, (20, 550), cv.FONT_HERSHEY_SIMPLEX, 1, (0, 100, 255), 2)
 
         # Show blobs
