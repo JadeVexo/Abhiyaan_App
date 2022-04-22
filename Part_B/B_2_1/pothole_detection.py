@@ -39,7 +39,7 @@ def thresh_callback(val):
     return canny_output
 
 
-cap = cv.VideoCapture("bolt_test_pothole.mp4")
+cap = cv.VideoCapture("virat_test_pothole.mp4")
 
 if cap.isOpened() == False:
     print("Nope")
