@@ -14,7 +14,7 @@ from std_msgs.msg import String
 
 def callback(data):
     pub = rospy.Publisher("naayihba_maet", String, queue_size=10)
-    rate = rospy.rate(0.5)
+    #rate = rospy.rate(0.5)
     info = "".join(reversed(data.data))
     pub.publish(info)
     rospy.loginfo(info)
