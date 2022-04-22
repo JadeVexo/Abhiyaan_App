@@ -20,7 +20,7 @@ def thresh_callback(val):
 
     canny_output = cv.Canny(src_gray, threshold, threshold * 2)
 
-    _, contours, _ = cv.findContours(canny_output, cv.RETR_TREE, cv.CHAIN_APPROX_SIMPLE)
+    contours, hierarchy = cv.findContours(canny_output, cv.RETR_TREE, cv.CHAIN_APPROX_SIMPLE)
 
     minEllipse = [None] * len(contours)
     for i, c in enumerate(contours):
@@ -54,9 +54,10 @@ while cap.isOpened():
         cv.namedWindow(source_window)
         max_thresh = 255
         thresh = 230
-        cv.createTrackbar(
-            "Canny Thresh:", source_window, thresh, max_thresh, thresh_callback
-        )
+        
+        # cv.createTrackbar(
+        #     "Canny Thresh:", source_window, thresh, max_thresh, thresh_callback
+        # )
         sec = thresh_callback(thresh)
 
         # blob detection
