@@ -95,8 +95,8 @@ while Running:
 
         plt.scatter(x, y, label="LiDar", color="blue")
 
-        plt.xlabel("x")
-        plt.ylabel("y")
+        plt.xlabel("Beam Serial Number")
+        plt.ylabel("Normalized Length")
         plt.title("Bonus")
         plt.legend()
         plt.show()
