@@ -10,6 +10,8 @@
 import pygame
 import numpy as np
 import matplotlib.pyplot as plt
+import time
+start_time = time.time()
 
 
 class points(pygame.sprite.Sprite):
@@ -25,8 +27,9 @@ class points(pygame.sprite.Sprite):
 
     def update(self):
         global lengths
-        self.pos_x += 1 * np.cos(0.0174533 * self.degree)
-        self.pos_y += 1 * np.sin(0.0174533 * self.degree)
+        vel = 4
+        self.pos_x += vel * np.cos(0.0174533 * self.degree)
+        self.pos_y += vel * np.sin(0.0174533 * self.degree)
         self.rect.center = (self.pos_x, self.pos_y)
 
         if (
@@ -50,7 +53,7 @@ class bg(pygame.sprite.Sprite):
     def __init__(self):
         super().__init__()
 
-        self.image = pygame.image.load("4Junc.png").convert() #Load the different images here
+        self.image = pygame.image.load("Scenario.png").convert() #Load the different images here
         self.rect = self.image.get_rect()
 
 
@@ -99,6 +102,7 @@ while Running:
         plt.ylabel("Normalized Length")
         plt.title("Bonus")
         plt.legend()
+        print("--- %s seconds ---" % (time.time() - start_time))
         plt.show()
 
     point_list.update()
